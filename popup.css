@@ -1,0 +1,69 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #f1f5f9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+#colorBtn{
+    width : 200px;
+    outline : none;
+    border : none;
+    border-radius: 5px;
+    padding : 5px;
+    background: blueviolet;
+    cursor : pointer;
+}
+
+#colorBtn:hover {
+    background-color: #6300b5; 
+}
+
+.hidden {
+    display: none;
+}
+
+.colorValue {
+    width: 30px;
+    height: 12px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.colorGrid {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.copyButton {
+  background-color: #f1f5f9;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.copyButton i {
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.copyButton :hover{
+    background-color: rgb(221, 215, 226) ;
+}
+
+.selectedColor {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
