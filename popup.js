@@ -17,7 +17,7 @@ btn.addEventListener("click", async () => {
     return;
   }
 
-  const eyeDropper = new EyeDropper();
+  const eyeDropper = new EyeDropper(); 
 
   eyeDropper
     .open()
